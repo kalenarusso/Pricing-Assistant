@@ -4,7 +4,7 @@ const costPerUnit = 12.5;
 const basePrice = 21.99;
 const discountRate = 0.20; // 20% discount
 const salesTaxRate = 0.07; // 7% sales tax
-const fixedMonthlyCost = 800 
+const fixedMonthlyCost = 900 
 
 const discountedPrice = basePrice * (1 - discountRate);
 const finalPriceWithTax = discountedPrice * (1 + salesTaxRate);
